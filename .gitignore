@@ -1,0 +1,25 @@
+.venv*/
+__pycache__/
+*.pyc
+data/
+raw_data/
+preprocessed_data/
+output/
+indic_nlp_resources/
+*.log
+*.sbatch
+install_micromamba.sh
+.DS_Store
+*.slurm
+"source ~/"
+
+source ~/
+train_original_backup.py
+
+source */
+*.env
+.env*
+*.pth.tar
+source *
+
+*.pth.tar.zip
