@@ -11,6 +11,7 @@ _pad = "_"
 _punctuation = "!'(),.:;? "
 _special = "-"
 _letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+_telugu = [chr(i) for i in range(0x0C00, 0x0C80)]
 _silences = ["@sp", "@spn", "@sil"]
 
 # Prepend "@" to ARPAbet symbols to ensure uniqueness (some are the same as uppercase letters):
@@ -23,6 +24,7 @@ symbols = (
     + list(_special)
     + list(_punctuation)
     + list(_letters)
+    + _telugu
     + _arpabet
     + _pinyin
     + _silences
