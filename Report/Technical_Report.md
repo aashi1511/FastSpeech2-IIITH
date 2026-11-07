@@ -78,3 +78,19 @@ Large datasets and model checkpoints may be excluded from GitHub due to their si
 
 ## 8. Conclusion
 The English FastSpeech 2 pipeline produced a trained checkpoint, five synthesized utterances, and training-loss visualizations. Telugu data preparation and acoustic feature extraction were completed, and a separate training job was submitted. Full bilingual evaluation requires successful Telugu training and synthesis.
+
+## 9. Telugu Training Status at Submission
+
+The Telugu dataset preprocessing and acoustic feature extraction were completed, including 1,449 mel-spectrogram, pitch, and duration feature files.
+
+A separate Telugu FastSpeech 2 training job (Slurm Job ID: 8859291) was submitted on Indiana University's Big Red 200 HPC cluster.
+
+At the time of report preparation, the job status was PENDING (PD), meaning the job was waiting for GPU resources and had not started execution.
+
+The following Telugu deliverables remain incomplete:
+- Completed Telugu model training and verified final checkpoint.
+- Five Telugu synthesized speech samples.
+- Telugu duration, pitch, and energy evaluation plots.
+- Telugu training-loss analysis and comparative English/Telugu evaluation.
+
+These results are not presented as completed experiments. The submitted report documents the work completed so far and the outstanding experiments.
