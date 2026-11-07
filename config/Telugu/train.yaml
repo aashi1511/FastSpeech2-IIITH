@@ -1,7 +1,7 @@
 path:
-  ckpt_path: ./output/ckpt/English
-  log_path: ./output/log/English
-  result_path: ./output/result/English
+  ckpt_path: ./output/ckpt/Telugu
+  log_path: ./output/log/Telugu
+  result_path: ./output/result/Telugu
 optimizer:
   batch_size: 2
   betas:
